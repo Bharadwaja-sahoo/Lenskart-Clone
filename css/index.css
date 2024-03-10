@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.firstNav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.firstNav input{
+    align-items: center;
+    width: 300px;
+    height: 27px;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid gray;
+    margin-top: 16px;
+}
+.headpic1{
+    align-items: center;
+    width: 180px;
+    height: 60px;
+}
+.headpic2{
+    align-items: center;
+    width: 110px;
+    height: 30px;
+}
+.firstNav p{
+    margin-top: 17px;
+    font-size: 17px;
+    align-items: center;
+}
+.secondNav{
+    /* padding: 0px 20px; */
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 11px;
+    background-color: rgb(243, 238, 238);
+    font-weight: 800;
+}
+.navoption{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+.img2{
+    width: 100%;
+}
+.secondNav p{
+    height: 10%;
+}
+.secondNav p:hover{
+    border-bottom: 2px solid rgb(13,13,46);
+    color: rgb(13,13,46);
+    cursor: pointer;
+}
+.secondNav img{
+    width: 6%;
+}
+.imgtop{
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    justify-content: end;
+    align-items: center;
+}
+.lenses{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(219, 212, 212);
+    padding: 11px;
+    transition: all 1s;
+}
+.lenses img{
+    width: 18%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.main img{
+    width: 100%;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+    background-color: rgb(212, 207, 207);
+    padding: 20px;
+    cursor: pointer;
+}
+.cart .card {
+    text-align: center;
+}
+.card button{
+    width: 100px;
+    height: 33px;
+    color: white;
+    background-color: rgb(132, 213, 213);
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.card p{
+    font-size: 16px;
+}
+.cart .card img{
+    width: 70%;
+}
+.banner h2{
+    text-align: center;
+    padding:32px;
+}
+.banner img{
+    width: 100%;
+}
+.img2 img{
+    width: 50%;
+}
+.img2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.goagle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(5, 5, 49);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .list ul{
+    list-style: none;
+}
+.list{
+    margin-top: 60px;
+}
+.Service{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}
+p{
+    font-size: 1.1vw;
+}
